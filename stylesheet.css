@@ -1,0 +1,367 @@
+body {
+	font-family: arial;
+	font-size: 12px;
+}
+
+.container {
+	display: grid;
+	margin: auto;
+	width: 90%;
+	grid-template-columns: auto auto auto auto auto auto;
+	grid-template-rows: auto auto auto auto auto auto;
+	grid-template-areas:    "header header header header header header"
+							"mainTitle mainTitle mainTitle mainTitle mainTitle mainTitle"
+							"crNumber crNumber crNumber hdRefNumber hdRefNumber hdRefNumber"
+							"dateSubmitted dateSubmitted dateImplemented dateImplemented dateRemoved dateRemoved"
+							"typeChange typeChange typeChange origin origin origin"
+							"estEffort estEffort estEffort origin origin origin"
+							"subMainSoft subMainSoft subMainSoft subMainSoft subMainSoft subMainSoft"
+							"softCat softCat softCat softCat softCat softCat"
+							"softCatTick softCatTick softCatTick softCatTick softCatTick softCatTick"
+							"softCatDesc softCatDesc softCatDesc softCatDesc softCatDesc softCatDesc"
+							"softChangeCat softChangeCat softChangeCat softChangeCat softChangeCat softChangeCat"
+							"softTickCat1 softTickCat1 softTickCat1 softTickCat1 softTickCat1 softTickCat1"
+							"softTickCat2 softTickCat2 softTickCat2 softTickCat2 softTickCat2 softTickCat2"
+							"softTickCat3 softTickCat3 softTickCat3 softTickCat3 softTickCat3 softTickCat3"
+							"softChangeCatDesc softChangeCatDesc softChangeCatDesc softChangeCatDesc softChangeCatDesc softChangeCatDesc"
+							"subMainHw subMainHw subMainHw subMainHw subMainHw subMainHw"
+							"hwCat hwCat hwCat hwCat hwCat hwCat"
+							"hwCatTick hwCatTick hwCatTick hwCatTick hwCatTick hwCatTick"
+							"hwCatDesc hwCatDesc hwCatDesc hwCatDesc hwCatDesc hwCatDesc"
+							"hwChangeCat hwChangeCat hwChangeCat hwChangeCat hwChangeCat hwChangeCat"
+							"hwChangeCatDesc hwChangeCatDesc hwChangeCatDesc hwChangeCatDesc hwChangeCatDesc hwChangeCatDesc"
+							"envName envName envName envName envName envName"
+							"dependencies dependencies dependencies dependencies dependencies dependencies"
+							"whoAffected whoAffected whoAffected whatWay whatWay whatWay"
+							"crBy crBy crBy crBy crBy crBy"
+							"changeApprovedBy changeApprovedBy changeApprovedBy changeApprovedBy changeApprovedBy changeApprovedBy"
+							"assignedImp assignedImp assignedImp assignedImp assignedImp assignedImp"
+							"assignedImpTick assignedImpTick assignedImpTick assignedImpTick assignedImpTick assignedImpTick"
+							"sectionBMainTitle sectionBMainTitle sectionBMainTitle sectionBMainTitle sectionBMainTitle sectionBMainTitle"
+							"footer footer footer footer footer footer";
+}
+
+.header {
+	grid-area: header;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#header_left {
+	float: left;
+}
+
+#header_right {
+	float: right;
+}
+
+.mainTitle{
+	grid-area: mainTitle;
+	text-align: center;
+	background-color: lightgray;
+	border-top: 2px solid black;;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	font-size: 16px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.crNumber {
+	grid-area: crNumber;
+	text-align: left;
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+	padding: 2px;
+	padding-left: 5px;
+}
+
+.hdRefNumber {
+	grid-area: hdRefNumber;
+	text-align: left;
+	border-top: 2px solid black;
+	border-left: 1px solid black;
+	border-right: 2px solid black;
+	padding: 2px;
+	padding-left: 5px;
+}
+
+.dateSubmitted {
+	grid-area: dateSubmitted;
+	border-top: 1px solid black;
+	border-left: 2px solid black;
+	padding: 2px;
+	padding-left: 5px;
+}
+
+.dateImplemented {
+	grid-area: dateImplemented;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	padding: 2px;
+	padding-left: 5px;
+}
+
+.dateRemoved {
+	grid-area: dateRemoved;
+	border-top: 1px solid black;
+	border-right: 2px solid black;
+	padding: 2px;
+	padding-left: 5px;
+}
+
+.typeChange {
+	grid-area: typeChange;
+	border-top: 1px solid black;
+	border-left: 2px solid black;
+	padding: 2px;
+	padding-left: 5px;
+}
+
+.origin {
+	grid-area: origin;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 2px solid black;
+	padding: 2px;
+	padding-left: 5px;
+}
+
+.estEffort {
+	grid-area: estEffort;
+	border-top: 1px solid black;
+	border-left: 2px solid black;
+	padding: 2px;
+	padding-left: 5px;
+}
+
+.subMainSoft {
+	grid-area: subMainSoft;
+	background-color: lightgray;
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	text-align: center;
+	font-size: 14px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.softCat {
+	grid-area: softCat;
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	text-align: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.softCatTick {
+	grid-area: softCatTick;
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.softCatDesc {
+	grid-area: softCatDesc;
+	border-top: 1px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#lbl_softCatDesc, #lbl_softChangeCatDesc {
+	display: flex;
+	align-items: flex-start;	
+}
+
+.softChangeCat {
+	grid-area: softChangeCat;
+	display: flex;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.softTickCat1 {
+	grid-area: softTickCat1;
+	border-top: 1px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.softTickCat2 {
+	grid-area: softTickCat2;
+	border-top: 1px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.softTickCat3 {
+	grid-area: softTickCat3;
+	border-top: 1px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.tick_softTickCat {
+
+}
+
+.softChangeCatDesc {
+	grid-area: softChangeCatDesc;
+	border-top: 1px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+}
+
+.subMainHw {
+	grid-area: subMainHw;
+	background-color: lightgray;
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	display: flex;
+	justify-content: center;
+	font-size: 14px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.hwCat {
+	grid-area: hwCat;
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	display: flex;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.hwCatTick {
+	grid-area: hwCatTick;
+	border-top: 1px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.hwCatDesc {
+	grid-area: hwCatDesc;
+	border-top: 1px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.hwChangeCat {
+	grid-area: hwChangeCat;
+	border-top: 1px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.hwChangeCatDesc {
+	grid-area: hwChangeCatDesc;
+	border-top: 1px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.envName {
+	grid-area: envName;
+	border-top: 1px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.dependencies {
+	grid-area: dependencies;
+	border-top: 1px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.whoAffected {
+	grid-area: whoAffected;
+	border-top: 1px solid black;
+	border-left: 2px solid black;
+}
+
+.whatWay {
+	grid-area: whatWay;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 2px solid black;
+}
+
+.crBy {
+	grid-area: crBy;
+	border-top: 1px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.changeApprovedBy {
+	grid-area: changeApprovedBy;
+	border-top: 1px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.assignedImp {
+	grid-area: assignedImp;
+	border-top: 1px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.assignedImpTick {
+	grid-area: assignedImpTick;
+	border-top: 1px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.sectionBMainTitle {
+	grid-area: sectionBMainTitle;
+	background-color: lightgray; 
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}

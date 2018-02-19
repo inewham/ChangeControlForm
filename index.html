@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>OPSFORM.025v3</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+
+	<div class="container">
+		<div class="header">
+			<div id="header_left">ict services</div>
+			<div id="header_right">opsform.025 (change control)</div>
+		</div>
+		<div class="mainTitle">
+			<strong>ICT Change Control Form</strong><br>
+			Section A - Change Definition
+		</div>
+		<div class="crNumber">
+			<label id="lbl_crNumber"><strong>Change Record No.</strong> (1) CR</label>
+			<input type="number" name="input_crNumber">
+		</div>
+		<div class="hdRefNumber">
+			<label id="lbl_hdRefNumber"><strong>Service Desk Call No.</strong> (2)</label>
+			HA <input type="number" name="input_hdRefNumber">
+		</div>
+		<div class="dateSubmitted">
+			<label id="lbl_dateSubmitted"><strong>Date Submitted</strong> (3)</label><br>
+			<input type="date" name="input_datesubmitted">
+		</div>
+		<div class="dateImplemented">
+			<label id="lbl_dateImplemented"><strong>Date to be Implemented</strong> (4)</label><br>
+			<input type="date" name="input_dateImplemented">
+		</div>
+		<div class="dateRemoved">
+			<label id="lbl_dateRemoved"><strong>Date to Remove</strong> (5)</label><br>
+			<input type="date" name="input_dateRemoved">
+		</div>
+		<div class="typeChange">
+			<label id="lbl_typeChange"><strong>Type of Change</strong> (6)</label>
+			<input class="tick_type-change" type="checkbox" name="tick_planned" value="Planned"><strong>Planned</strong>
+			<input class="tick_type-change" type="checkbox" name="tick_emergency" value="Emergency"><strong>Emergency</strong>
+			<input class="tick_type-change" type="checkbox" name="tick_temporary" value="Temporary"><strong>Temporary</strong>
+		</div>
+		<div class="origin">
+			<label id="lbl_origin"><strong>Origin</strong> (8)</label><br>
+			<input class="tick_origin" type="checkbox" name="tick_user" value="User">User
+			<input class="tick_origin" type="checkbox" name="tick_ict" value="ICT">ICT
+			<input class="tick_origin" type="checkbox" name="tick_3rdparty" value="3rdParty">3rd Party<br><br>
+			<label id="lbl_3rdPartyRef"><strong>3rd Party Reference</strong> (9)</label>
+			<input type="text" name="input_3rdPartyRef">
+		</div>
+		<div class="estEffort">
+			<label id="lbl_estEffort"><strong>Estimated Effort</strong> (7)</label><br>
+			<textarea name="txtArea_estEffort" placeholder="Enter details here..."></textarea>
+		</div>
+		<div class="subMainSoft">
+			<strong>Application, Database or Operating System Change</strong>
+		</div>
+		<div class="softCat"><strong>Application, DB or OS Category</strong> (10)</div>
+		<div class="softCatTick">
+			<input class="tick_softCatTick" type="checkbox" name="tick_Application" value="Application">Application
+			<input class="tick_softCatTick" type="checkbox" name="tick_Database" value="Database">Database
+			<input class="tick_softCatTick" type="checkbox" name="tick_OperatingSystem" value="OperatingSystem">Operating System
+		</div>
+		<div class="softCatDesc">
+			<label id="lbl_softCatDesc"><strong>Specify (description):</strong></label>
+			<textarea name="txtArea_softCatDesc" rows="3" cols="70" placeholder="Enter details here..."></textarea>
+		</div>
+		<div class="softChangeCat">
+			<strong>Change Category</strong> (11)
+		</div>
+		<div class="softTickCat1">
+			<input class="tick_softTickCat" type="checkbox" name="tick_servicePacks" value="servicePacks">Service Packs
+			<input class="tick_softTickCat" type="checkbox" name="tick_interface" value="Interface">Interface
+			<input class="tick_softTickCat" type="checkbox" name="tick_equipment" value="3rdParty">Equipment Configuration
+		</div>
+		<div class="softTickCat2">
+			<input class="tick_softTickCat" type="checkbox" name="tick_movRecable" value="movRecable">Moves / Recabling
+			<input class="tick_softTickCat" type="checkbox" name="tick_maintenance" value="Maintenance">Maintenance
+			<input class="tick_softTickCat" type="checkbox" name="tick_dataCentre" value="DataCentre">Data Centre Services
+		</div>
+		<div class="softTickCat3">
+			<input class="tick_softTickCat" type="checkbox" name="newHw" value="NewHardware">New Hardware
+			<input class="tick_softTickCat" type="checkbox" name="tick_commsOrNet" value="commsOrNet">Communications or Network (specify in 'Other')
+			<input class="tick_softTickCat" type="checkbox" name="tick_other" value="Other">Other (specify in 'Other')
+		</div>
+		<div class="softChangeCatDesc">
+			<label id="lbl_softChangeCatDesc"><strong>Other (description):</strong></label>
+			<textarea name="txtArea_softChangeCatDesc" rows="3" cols="70" placeholder="Enter details here..."></textarea>
+		</div>
+		<div class="subMainHw"><strong>Hardware, Communications or Network Software Change</strong></div>
+		<div class="hwCat"><strong>ICT Systems Category</strong> (12)</div>
+		<div class="hwCatTick">hwCatTick</div>
+		<div class="hwCatDesc">hwCatDesc</div>
+		<div class="hwChangeCat">hwChangeCat</div>
+		<div class="hwChangeCatDesc">hwChangeCatDesc</div>
+		<div class="envName">envName</div>
+		<div class="dependencies">dependencies</div>
+		<div class="whoAffected">whoAffected</div>
+		<div class="whatWay">whatWay</div>
+		<div class="crBy">crBy</div>
+		<div class="changeApprovedBy">changeApprovedBy</div>
+		<div class="assignedImp">assignedImp</div>
+		<div class="assignedImpTick">assignedImpTick</div>
+		<div class="sectionBMainTitle">sectionBMainTitle</div>
+
+		<div class="footer">footer</div>
+	</div>
+
+</body>
+</html>
