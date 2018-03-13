@@ -104,6 +104,12 @@ body {
 	border-bottom: 1px solid black;
 }
 
+#SecBHardware {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
 #SectionB-Header {
 	border-left: 1px solid black;
 	border-right: 1px solid black;
@@ -184,13 +190,22 @@ body {
 #SectionE-Header {
 	border-left: 1px solid black;
 	border-right: 1px solid black;
-	text-align: center;
 }
 
 #SectionE-Header_Title {
 	background-color: lightgray;
 	border-bottom: 1px solid black;
 	font-size: 14px;
+	text-align: center;
+}
+
+#SecERow2 {
+	padding-top: 1.5em;
+}
+
+#SecERow16 {
+	padding-bottom: 1.5em;
+	border-bottom: 1px solid black;
 }
 
 #SectionF-Header {

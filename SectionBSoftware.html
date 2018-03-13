@@ -1,0 +1,155 @@
+		<div id="softwareSection">
+			<div class="row">
+				<div id="subMainSoft" class="col-sm">
+					<h4><strong>Application, Database or Operating System Change</strong></h4>
+				</div>
+			</div>
+
+			<div class="row">
+				<div id="softCat" class="col-sm"><strong>Application, DB or OS Category</strong> (10)</div>
+			</div>
+
+			<div id="sct" class="row">
+				<div class="softCatTick col-sm-4">
+					<input class="tick_softCatTick" type="checkbox" name="tick_Application" value="Application">Application
+				</div>
+				<div class="softCatTick col-sm-4">
+					<input class="tick_softCatTick" type="checkbox" name="tick_Database" value="Database">Database
+				</div>
+				<div class="softCatTick col-sm-4">
+					<input class="tick_softCatTick" type="checkbox" name="tick_OperatingSystem" value="OperatingSystem">Operating System
+				</div>
+			</div>
+
+			<hr>
+
+			<div id="scd" class="row">
+				<div class="col-sm-2 softCatDesc">
+					<label id="lbl_softCatDesc"><strong>Specify (description):</strong></label>
+				</div>
+				<div class="col-sm softCatDesc">
+					<textarea name="txtArea_softCatDesc" cols="35" placeholder="Enter details here..."></textarea>
+				</div>
+			</div>
+
+			<div class="row">
+				<div id="softChangeCat" class="col-sm">
+					<strong>Change Category</strong> (11)
+				</div>
+			</div>
+
+			<div id="stc" class="row">
+				<div class="col-sm softTickCat1">
+					<input class="tick_softTickCat" type="checkbox" name="tick_servicePacks" value="servicePacks">Service Packs
+				</div>
+				<div class="col-sm softTickCat1">
+					<input class="tick_softTickCat" type="checkbox" name="tick_interface" value="Interface">Interface
+				</div>
+				<div class="col-sm softTickCat1">
+					<input class="tick_softTickCat" type="checkbox" name="tick_equipment" value="3rdParty">Equipment Configuration
+				</div>
+			</div>
+
+			<hr>
+
+			<div class="row">
+				<div class="col-sm-2 otherDesc">
+					<label id="lbl_softCatDesc"><strong>Other (description):</strong></label>
+				</div>
+				<div class="col-sm otherDesc">
+					<textarea name="txtArea_softCatDesc" cols="35" placeholder="Enter details here..."></textarea>
+				</div>
+			</div>
+
+			<hr>
+
+			<div class="row">
+				<div class="col-sm-4 softTickCat2">
+					<input class="tick_softTickCat" type="checkbox" name="tick_movRecable" value="movRecable">Moves / Recabling
+				</div>
+				<div class="col-sm-4 softTickCat2">
+					<input class="tick_softTickCat" type="checkbox" name="tick_maintenance" value="Maintenance">Maintenance
+				</div>
+				<div class="col-sm-4 softTickCat2">
+					<input class="tick_softTickCat" type="checkbox" name="tick_dataCentre" value="DataCentre">Data Centre Services
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4 softTickCat2">
+					<input class="tick_softTickCat" type="checkbox" name="newHw" value="NewHardware">New Hardware
+				</div>
+				<div class="col-sm-4 softTickCat2">
+					<input class="tick_softTickCat" type="checkbox" name="tick_commsOrNet" value="commsOrNet">Communications or Network (specify in 'Other')
+				</div>
+				<div class="col-sm-4 softTickCat2">
+					<input class="tick_softTickCat" type="checkbox" name="tick_other" value="Other">Other (specify in 'Other')
+				</div>
+			</div>
+
+			<hr>
+
+			<div id="SecARow13" class="row">
+				<div class="col-sm-2 otherDesc">
+					<label id="lbl_softCatDesc"><strong>Other (description):</strong></label>
+				</div>
+				<div class="col-sm otherDesc">
+					<textarea name="txtArea_softCatDesc" cols="35" placeholder="Enter details here..."></textarea>
+				</div>
+			</div>
+			<div id="SecBRow1" class="row">
+				<div id="SectionB-Header_Title" class="col-sm">
+					<h3><strong>Section B - Release Control (Application, DB or OS Only)</strong></h3>
+				</div>
+			</div>
+			<div id="SecBRow2" class="row">
+				<div id="SecBRelCont" class="col-sm">
+					<strong>Unit, Configuration & Integration Testing Complete [Internal Development Only] </strong> (See separate test plan) (21)
+				</div>
+				<div id="SecBRelContY_N" class="col-sm-4">
+					<strong>Yes: </strong><input type="checkbox" name="tick_SecBRelContYes" value="tick_SecBRelContYes">
+					<strong>No: </strong><input type="checkbox" name="tick_SecBRelContNo" value="tick_SecBRelContNo">
+				</div>
+			</div>
+
+			<hr>
+
+			<div id="SecBRow3" class="row">
+				<div id="SecBRelContIssues" class="col-sm-4">
+					If 'No' then Hold Change & list issues:
+				</div>
+				<div id="SecBRelContIssuesDesc" class="col-sm">
+					<textarea name="txtArea_SecBRelContIssuesDesc" cols="35" placeholder="Enter details here..."></textarea>
+				</div>
+			</div>
+
+			<hr>
+
+			<div id="SecBRow4" class="row">
+				<div class="col-sm-4">
+					<strong>Ensure all Accounts Used for Testing are not Locked</strong>
+				</div>
+				<div class="col-sm-4">
+					<strong>Yes: </strong><input type="checkbox" name="tick_SecBRelContYes" value="tick_SecBRelContYes">
+					<strong>No: </strong><input type="checkbox" name="tick_SecBRelContNo" value="tick_SecBRelContNo">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-4">
+					<strong>UAT Test Plan Summary </strong>(22)
+				</div>
+				<div class="col-sm">
+					<textarea name="txtArea_SecBRow5UATDesc" cols="35" placeholder="Enter UAT Test plan summary here..."></textarea>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-4">
+					<strong>Approval Delivery into Test Environment (CAB) </strong>(sign & date (if by e-mail, attach copy)) (23)
+				</div>
+				<div class="col-sm">
+					<textarea name="txtArea_SecBRow6UATDesc" cols="35" placeholder="Enter details here..."></textarea>
+				</div>
+			</div>
+
+		</div>
