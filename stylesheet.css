@@ -3,12 +3,6 @@ body {
 	font-size: 12px;
 }
 
-textarea {  
-  display: block;
-  box-sizing: padding-box;
-  overflow: hidden;
-}
-
 #main-container {
 	border: 1px solid black;
 }
@@ -34,36 +28,8 @@ textarea {
 	padding-top: 1.5em;
 }
 
-#crNumber {
-
-}
-
-#hdRefNumber {
-
-}
-
-#dateSubmitted {
-
-}
-
-#dateImplemented {
-
-}
-
-#dateRemoved {
-
-}
-
 #typeOfChange {
 	padding-bottom: 1.5em;
-}
-
-#typeChange {
-
-}
-
-#origin {
-
 }
 
 #estEffort {
@@ -95,14 +61,6 @@ textarea {
 	padding-top: 1.5em;
 }
 
-.softCatTick {
-
-}
-
-.softCatDesc {
-
-}
-
 #scd {
 	padding-bottom: 1.5em;
 }
@@ -111,39 +69,10 @@ textarea {
 	padding-top: 1.5em;
 }
 
-#lbl_softCatDesc, #lbl_softChangeCatDesc {
-
-}
-
 #softChangeCat {
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 	text-align: center;
-}
-
-.softTickCat1 {
-
-
-}
-
-.otherDesc {
-
-}
-
-.softTickCat2 {
-
-}
-
-#tick_softTickCat {
-
-}
-
-#softChangeCatDesc {
-
-}
-
-#sdo {
-	padding-bottom: 1.5em;
 }
 
 #HardwareSection {
@@ -162,66 +91,152 @@ textarea {
 	text-align: center;
 }
 
-.hwCatTick {
-
-}
-
 #hct {
 	padding-top: 1.5em;
-}
-
-.hwCatDesc {
-
-}
-
-#hwChangeCat {
-
-}
-
-.hwChangeCatDesc {
-
-}
-
-.envName {
-
-}
-
-.dependencies {
-
-}
-
-.hwAffected {
-
-}
-
-#whoAffected {
-	
-}
-
-#whatWay {
-	
-}
-
-.crBy {
-
-}
-
-.changeApprovedBy {
-
-}
-
-.assignedImp {
-
-}
-
-.assignedImpTick {
-
 }
 
 #ait {
 	padding-bottom: 1.5em;
 }
 
-#sectionBMainTitle {
+#SecARow13 {
+	padding-bottom: 1.5em;
+	border-bottom: 1px solid black;
+}
 
+#SectionB-Header {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+#SectionB-Header_Title {
+	background-color: lightgray;
+	border-bottom: 1px solid black;
+	font-size: 14px;
+	text-align: center;
+}
+
+#SecBRow2 {
+	padding-top: 1.5em;
+}
+
+#SecBRow4 {
+	padding-bottom: 1.5em;
+}
+
+#SectionC-Header {
+/*	border-top: 1px solid black;*/
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#SectionC-Header_Title {
+	background-color: lightgray;
+	border-bottom: 1px solid black;
+	font-size: 14px;
+	text-align: center;
+}
+
+#SecCRow0 {
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+}
+
+#SecCRow0_5,
+#SecCRow1,
+#SecCRow2,
+#SecCRow3,
+#SecCRow4,
+#SecCRow5,
+#SecCRow6,
+#SecCRow7,
+#SecCRow8,
+#SecCRow9 {
+	padding-bottom: 1.5em;
+}
+
+#SecCDocReqRow {
+	padding-top: 1.5em;
+}
+
+#SectionD-Header {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+#SectionD-Header_Title {
+	background-color: lightgray;
+	border-bottom: 1px solid black;
+	font-size: 14px;
+	text-align: center;
+}
+
+#SecDFallbackSummary {
+	padding-top: 1.5em;
+}
+
+#SecDFallbackDescRow {
+	padding-bottom: 1.5em;
+	border-bottom: 1px solid black;
+}
+
+#SectionE-Header {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	text-align: center;
+}
+
+#SectionE-Header_Title {
+	background-color: lightgray;
+	border-bottom: 1px solid black;
+	font-size: 14px;
+}
+
+#SectionF-Header {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	text-align: center;
+}
+
+#SectionF-Header_Title {
+	background-color: lightgray;
+	border-bottom: 1px solid black;
+	font-size: 14px;
+}
+
+#SectionG-Header {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+
+#SectionG-Header_Title {
+	background-color: lightgray;
+	border-bottom: 1px solid black;
+	font-size: 14px;
+	text-align: center;
+}
+
+#SecGRow2 {
+	text-align: center;
+	padding-top: 1.5em;
+}
+
+#SecGRow3Col1 {
+	text-align: right;
+}
+
+#SecGRow4Col1_Row1Col1,
+#SecGRow4Col2_Row1Col2 {
+	font-size: 14px;
+}
+
+#SecGRow4,
+#SecGRow6 {
+	border-bottom: 1px solid black;
+	padding-bottom: 1.5em;
+}
+
+#SecGRow5 {
+	padding-top: 1.5em;
 }
