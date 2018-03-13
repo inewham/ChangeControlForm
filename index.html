@@ -27,8 +27,8 @@
 		<!-- Form Title Bar | Row 2 -->
 		<div class="row">
 			<div id="mainTitle" class="col-sm">
-				<strong>ICT Change Control Form</strong><br>
-				Section A - Change Definition
+				<h3><strong>ICT Change Control Form</strong><br>
+				Section A - Change Definition</h3>
 			</div>
 		</div>
 
@@ -183,7 +183,7 @@
 
 			<hr>
 
-			<div id="sdo" class="row">
+			<div id="SecARow13" class="row">
 				<div class="col-sm-2 otherDesc">
 					<label id="lbl_softCatDesc"><strong>Other (description):</strong></label>
 				</div>
@@ -191,6 +191,62 @@
 					<textarea name="txtArea_softCatDesc" cols="35" placeholder="Enter details here..."></textarea>
 				</div>
 			</div>
+			<div id="SecBRow1" class="row">
+				<div id="SectionB-Header_Title" class="col-sm">
+					<strong>Section B - Release Control (Application, DB or OS Only)</strong>
+				</div>
+			</div>
+			<div id="SecBRow2" class="row">
+				<div id="SecBRelCont" class="col-sm">
+					<strong>Unit, Configuration & Integration Testing Complete [Internal Development Only] </strong> (See separate test plan) (21)
+				</div>
+				<div id="SecBRelContY_N" class="col-sm-4">
+					<strong>Yes: </strong><input type="checkbox" name="tick_SecBRelContYes" value="tick_SecBRelContYes">
+					<strong>No: </strong><input type="checkbox" name="tick_SecBRelContNo" value="tick_SecBRelContNo">
+				</div>
+			</div>
+
+			<hr>
+
+			<div id="SecBRow3" class="row">
+				<div id="SecBRelContIssues" class="col-sm-4">
+					If 'No' then Hold Change & list issues:
+				</div>
+				<div id="SecBRelContIssuesDesc" class="col-sm">
+					<textarea name="txtArea_SecBRelContIssuesDesc" cols="35" placeholder="Enter details here..."></textarea>
+				</div>
+			</div>
+
+			<hr>
+
+			<div id="SecBRow4" class="row">
+				<div class="col-sm-4">
+					<strong>Ensure all Accounts Used for Testing are not Locked</strong>
+				</div>
+				<div class="col-sm-4">
+					<strong>Yes: </strong><input type="checkbox" name="tick_SecBRelContYes" value="tick_SecBRelContYes">
+					<strong>No: </strong><input type="checkbox" name="tick_SecBRelContNo" value="tick_SecBRelContNo">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-4">
+					<strong>UAT Test Plan Summary </strong>(22)
+				</div>
+				<div class="col-sm">
+					<textarea name="txtArea_SecBRow5UATDesc" cols="35" placeholder="Enter UAT Test plan summary here..."></textarea>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-4">
+					<strong>Approval Delivery into Test Environment (CAB) </strong>(sign & date (if by e-mail, attach copy)) (23)
+				</div>
+				<div class="col-sm">
+					<textarea name="txtArea_SecBRow6UATDesc" cols="35" placeholder="Enter details here..."></textarea>
+				</div>
+			</div>
+
 		</div>
 
 		<div id="HardwareSection">
@@ -339,17 +395,281 @@
 
 		<hr>
 		
-		<div id="ait"class="row">
-			<div id="" class="col-sm-4 assignedImpTick">
+		<div id="ait" class="row">
+			<div class="col-sm-4 assignedImpTick">
 				<input class="tick_hwassignedImpTick" type="checkbox" name="tpAccessReq" value="tpAccessReq"><strong>3rd Party Access Required?</strong>
 			</div>
-			<div id="" class="col-sm-4 assignedImpTick">
+			<div class="col-sm-4 assignedImpTick">
 				<textarea name="txtArea_compEngName" cols="35" placeholder="Company & Engineers Name..."></textarea>
 			</div>
-			<div id="" class="col-sm-4 assignedImpTick">
+			<div class="col-sm-4 assignedImpTick">
 				<textarea name="txtArea_duration" cols="20" placeholder="Duration..."></textarea>
 			</div>
-		</div>		
+		</div>
+	</div>
+
+<!-- 	<div id="SectionB-Header" class="container">
+
+	</div> -->
+
+	<div id="SectionC-Header" class="container">
+		<div class="row">
+			<div id="SectionC-Header_Title" class="col-sm">
+				<h3><strong>Section C - Related Documentation (All Changes)</strong></h3>
+			</div>
+		</div>
+		<div id="SecCRow0" class="row">
+			<div class="col-sm">
+				<strong>Documentation Requirements</strong> (28)
+			</div>
+		</div>
+		<div id="SecCRow0_5" class="row">
+			<div id="SecCRow0.5Col1" class="col-sm-4">				
+					<strong>Date Release</strong>
+			</div>
+			<div id="SecCRow0_5Col2" class="col-sm-4">
+					<!-- Blank Space -->
+			</div>
+			<div id="SecCRow0_5Col3" class="col-sm-4">
+					<strong>Applicable</strong>
+			</div>
+		</div>
+		<div id="SecCRow1" class="row">
+			<div id="SecCRow1Col1" class="col-sm-4">				
+					<input type="date" name="input_SecCRow1Col1">
+			</div>
+			<div id="SecCRow1Col2" class="col-sm-4">
+					User Procedures Updated
+			</div>
+			<div id="SecCRow1Col3" class="col-sm-4">
+					<input type="checkbox" name="tick_SecCRow1Col3" value="tick_SecCRow1Col3">
+			</div>
+		</div>
+		<div id="SecCRow1" class="row">
+			<div id="SecCRow2Col1" class="col-sm-4">				
+					<input type="date" name="input_SecCRow2Col1">
+			</div>
+			<div id="SecCRow2Col2" class="col-sm-4">
+					ICT Systems Business Continuity Updated
+			</div>
+			<div id="SecCRow2Col3" class="col-sm-4">
+					<input type="checkbox" name="tick_SecCRow2Col3" value="tick_SecCRow2Col3">
+			</div>
+		</div>
+		<div id="SecCRow3" class="row">
+			<div id="SecCRow3Col1" class="col-sm-4">				
+					<input type="date" name="input_SecCRow3Col1">
+			</div>
+			<div id="SecCRow3Col2" class="col-sm-4">
+					Internal ICT Procedures Updated
+			</div>
+			<div id="SecCRow3Col3" class="col-sm-4">
+					<input type="checkbox" name="tick_SecCRow3Col3" value="tick_SecCRow3Col3">
+			</div>
+		</div>
+		<div id="SecCRow4" class="row">
+			<div id="SecCRow4Col1" class="col-sm-4">				
+					<input type="date" name="input_SecCRow4Col1">
+			</div>
+			<div id="SecCRo41Col2" class="col-sm-4">
+					Server Configuration Updated
+			</div>
+			<div id="SecCRow4Col3" class="col-sm-4">
+					<input type="checkbox" name="tick_SecCRow4Col3" value="tick_SecCRow4Col3">
+			</div>
+		</div>
+		<div id="SecCRow5" class="row">
+			<div id="SecCRow5Col1" class="col-sm-4">				
+					<input type="date" name="input_SecCRow5Col1">
+			</div>
+			<div id="SecCRow5Col2" class="col-sm-4">
+					Network Diagram Updated
+			</div>
+			<div id="SecCRow5Col3" class="col-sm-4">
+					<input type="checkbox" name="tick_SecCRow5Col3" value="tick_SecCRow5Col3">
+			</div>
+		</div>
+		<div id="SecCRow6" class="row">
+			<div id="SecCRow6Col1" class="col-sm-4">				
+					<input type="date" name="input_SecCRow6Col1">
+			</div>
+			<div id="SecCRow6Col2" class="col-sm-4">
+					Quality System Updated
+			</div>
+			<div id="SecCRow6Col3" class="col-sm-4">
+					<input type="checkbox" name="tick_SecCRow6Col3" value="tick_SecCRow6Col3">
+			</div>
+		</div>
+		<div id="SecCRow7" class="row">
+			<div id="SecCRow7Col1" class="col-sm-4">				
+					<input type="date" name="input_SecCRow7Col1">
+			</div>
+			<div id="SecCRow7Col2" class="col-sm-4">
+					OEM Manuals New / Updated
+			</div>
+			<div id="SecCRow7Col3" class="col-sm-4">
+					<input type="checkbox" name="tick_SecCRow7Col3" value="tick_SecCRow7Col3">
+			</div>
+		</div>
+		<div id="SecCRow8" class="row">
+			<div id="SecCRow8Col1" class="col-sm-4">				
+					<input type="date" name="input_SecCRow8Col1">
+			</div>
+			<div id="SecCRow8Col2" class="col-sm-4">
+					Other
+			</div>
+			<div id="SecCRow8Col3" class="col-sm-4">
+					<input type="checkbox" name="tick_SecCRow8Col3" value="tick_SecCRow8Col3">
+			</div>
+		</div>
+		<div id="SecCRow9" class="row">
+			<div id="SecCRow9Col1" class="col-sm">
+				<textarea name="txtArea_SecCRow9Col1" cols="35" placeholder="Enter details here for Other..."></textarea>
+			</div>			
+		</div>
+	</div>
+
+	<div id="SectionD-Header" class="container">
+		<div class="row">
+			<div id="SectionD-Header_Title" class="col-sm">
+				<h3><strong>Section D - Fallback/Contingency (All Changes)</strong></h3>
+			</div>
+		</div>
+		<div id="SecDFallbackSummary" class="row">
+			<div id="SecDFallback" class="col-sm-4">
+				<strong>Fall Back Procedure / Contingency (summary) </strong> (29)
+			</div>
+			<div id="SecDFallback_col2" class="col-sm-6">
+				<strong>Ensure all Accounts Used for Testing are not Locked</strong>
+			</div>
+			<div class="col-sm-2">
+				<strong>Yes: </strong><input type="checkbox" name="tick_FallbackYes" value="tick_FallbackYes">
+				<strong>No: </strong><input type="checkbox" name="tick_FallbackNo" value="tick_FallbackNo">
+			</div>
+		</div>
+		
+		<div id="SecDFallbackDescRow" class="row">
+			<div id="SecDFallbackDesc" class="col-sm">
+				<textarea name="txtArea_FallbackDesc" cols="35" placeholder="Enter details here..."></textarea>
+			</div>
+		</div>
+	</div>
+
+	<div id="SectionE-Header" class="container">
+		<div class="row">
+			<div id="SectionE-Header_Title" class="col-sm">
+				<h3><strong>Section E - Go-Live (Applications, DB or OS Only)</strong></h3>
+			</div>
+		</div>
+	</div>
+
+	<div id="SectionF-Header" class="container">
+		<div class="row">
+			<div id="SectionF-Header_Title" class="col-sm">
+				<h3><strong>Section F - Go-Live (Hardware, Communications or Network Software Only)</strong></h3>
+			</div>
+		</div>
+	</div>
+
+	<div id="SectionG-Header" class="container">
+		<div id="SecGRow1" class="row">
+			<div id="SectionG-Header_Title" class="col-sm">
+				<h3><strong>Section G - Completion / Sign-Off (All Changes)</strong></h3>
+			</div>
+		</div>
+		<div id="SecGRow2" class="row">
+			<div id="SecGRow2Col1" class="col-sm">
+				<strong>Completion Confirmation or Fail Status Recorded</strong> (41)
+			</div>
+		</div>
+
+		<div id="SecGRow3" class="row">
+			<div id="SecGRow3Col1" class="col-sm-7">
+				<strong>Ensure all Accounts Used for Testing are not Locked</strong>
+			</div>
+			<div id="SecGRow3Col2" class="col-sm-5">
+				<strong>Yes: </strong><input type="checkbox" name="tick_SecGRow3Y" value="tick_SecGRow3Y">
+				<strong>No: </strong><input type="checkbox" name="tick_SecGRow3Y" value="tick_SecGRow3Y">
+			</div>
+		</div>
+
+		<hr>
+
+		<div id="SecGRow4" class="row">
+			<div id="SecGRow4Col1" class="col-sm">
+				<div class="row">
+					<div id="SecGRow4Col1_Row1Col1" class="col-sm">
+						<strong>Validated Successful Deployment</strong>
+					</div>
+					<div class="col-sm">
+						<input type="checkbox" name="tick_SecGRow4Col1_Row1Col2" value="tick_SecGRow4Col1_Row1Col2">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm">
+						Fallback procedure <strong>Not</strong> Activated
+					</div>
+					<div class="col-sm">
+						<input type="checkbox" name="tick_SecGRow4Col1_Row2Col2" value="tick_SecGRow4Col1_Row2Col2">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm">
+						ICT Service Desk Call Updated and Closed
+					</div>
+					<div class="col-sm">
+						<input type="checkbox" name="tick_SecGRow4Col1_Row3Col2" value="tick_SecGRow4Col1_Row3Col2">
+					</div>					
+				</div>
+			</div>
+			<div id="SecGRow4Col2" class="col-sm">
+				<div class="row">
+					<div id="SecGRow4Col2_Row1Col2" class="col-sm">
+						<strong>Deployed Failed</strong>
+					</div>
+					<div class="col-sm">
+						<input type="checkbox" name="tick_SecGRow4Col2_Row1Col2" value="tick_SecGRow4Col2_Row1Col2">
+					</div>				
+				</div>
+				<div class="row">
+					<div class="col-sm">
+						IT Systems Business Continuity Recovery Implemented
+					</div>
+					<div class="col-sm">
+						<input type="checkbox" name="tick_SecGRow4Col2_Row2Col2" value="tick_SecGRow4Col2_Row2Col2">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm">
+						ICT Service Desk Call Updated
+					</div>
+					<div class="col-sm">
+						<input type="checkbox" name="tick_SecGRow4Col2_Row3Col2" value="tick_SecGRow4Col2_Row3Col2">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="SecGRow5" class="row">
+			<div class="col-sm-4">
+				<strong>Completion Confirmation Comments</strong> (42)
+			</div>
+			<div class="col-sm">
+				<textarea name="txtArea_SecGRow5" cols="35" placeholder="Enter details here..."></textarea>
+			</div>
+		</div>
+
+		<hr>
+
+		<div id="SecGRow6" class="row">
+			<div class="col-sm-4">
+				<strong>Failure Status Comments</strong> (43)
+			</div>
+			<div class="col-sm">
+				<textarea name="txtArea_SecGRow6" cols="35" placeholder="Enter details here..."></textarea>
+			</div>			
+		</div>
+
 	</div>
 
 	<div id="footer-container" class="container">
