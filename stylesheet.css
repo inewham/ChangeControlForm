@@ -265,3 +265,7 @@ body {
 #SecGRow5 {
 	padding-top: 1.5em;
 }
+
+textarea {
+	width: 100%;
+}
