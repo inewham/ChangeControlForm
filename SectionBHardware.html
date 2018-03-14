@@ -1,0 +1,157 @@
+<div id="HardwareSection">
+	<div class="row">
+		<div id="subMainHw" class="col-sm">
+			<h3><strong>Hardware, Communications or Network Software Change</strong></h3>
+		</div>
+	</div>
+
+	<div class="row">
+		<div id="hwCat" class="col-sm">
+			<strong>ICT Systems Category</strong> (12)
+		</div>
+	</div>
+
+	<div id="hct" class="row">
+		<div class="col-sm-4 hwCatTick">
+			<input class="tick_hwTickCat" type="checkbox" name="tick_hwTickCatExtEng" value="tick_hwTickCatExtEng">External Engineer
+		</div>
+		<div class="col-sm-4 hwCatTick">
+			<input class="tick_hwTickCat" type="checkbox" name="tick_hwTickCatHwUp" value="tick_hwTickCatHwUp">Hardware Upgrade
+		</div>
+		<div class="col-sm-4 hwCatTick">
+			<input class="tick_hwTickCat" type="checkbox" name="tick_hwTickCatEqConfig" value="tick_hwTickCatEqConfig">Equipment Configuration
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-4 hwCatTick">
+			<input class="tick_hwTickCat" type="checkbox" name="tick_hwTickCatMov" value="tick_hwTickCatMov">Moves / Recabling
+		</div>
+		<div class="col-sm-4 hwCatTick">
+			<input class="tick_hwTickCat" type="checkbox" name="tick_hwTickCatMaint" value="tick_hwTickCatMaint">Maintenance
+		</div>
+		<div class="col-sm-4 hwCatTick">
+			<input class="tick_hwTickCat" type="checkbox" name="tick_hwTickCatDcs" value="tick_hwTickCatDcs">Data Centre Services
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-4 hwCatTick">
+			<input class="tick_hwTickCat" type="checkbox" name="tick_hwTickCatNewHw" value="tick_hwTickCatNewHw">New Hardware
+		</div>
+		<div class="col-sm-4 hwCatTick">
+			<input class="tick_hwTickCat" type="checkbox" name="tick_hwTickCatCommNet" value="tick_hwTickCatCommNet">Communications or Network (specify in 'Other')
+		</div>
+		<div class="col-sm-4 hwCatTick">
+			<input class="tick_hwTickCat" type="checkbox" name="tick_hwTickCatOther" value="tick_hwTickCatOther">Other (specify in 'Other')
+		</div>
+	</div>
+
+	<hr>
+
+	<div class="row">
+		<div class="col-sm-4 hwCatDesc">
+			<label id="lbl_hwCatDesc"><strong>Other (description):</strong></label>
+		</div>
+		<div class="col-sm hwCatDesc">
+			<textarea name="txtArea_hwCatDesc" cols="35" placeholder="Enter details here..."></textarea>
+		</div>
+	</div>
+
+	<hr>
+
+	<div class="row">
+		<div class="col-sm-4 hwChangeCatDesc">
+			<label id="lbl_hwChangeCatDesc"><strong>Description of and reason for change </strong>(13)</label>
+		</div>
+		<div class="col-sm hwChangeCatDesc">
+			<textarea name="txtArea_hwChangeCatDesc" cols="35" placeholder="Enter details here..."></textarea>
+		</div>
+	</div>
+
+	<hr>
+	
+	<div class="row">
+		<div class="col-sm-4 envName">
+			<strong>Environment Name</strong> (If Applicable) (14)
+		</div>
+		<div class="col-sm envName">
+			<textarea name="txtArea_hwenvName" cols="35" placeholder="Enter details here..."></textarea>
+		</div>
+	</div>
+
+	<hr>
+
+	<div class="row">
+		<div class="col-sm-4 dependencies">
+			<strong>Dependencies - This change must be implemented before/after/with</strong> (15)
+		</div>
+		<div class="col-sm dependencies">
+			<textarea name="txtArea_hwdependencies" cols="35" placeholder="Enter details here..."></textarea>
+		</div>
+	</div>
+
+	<hr>
+
+	<div class="row">
+		<div id="whoAffected" class="col-sm-4 hwAffected">
+			<strong>Who will be affect</strong> (16)
+		</div>
+		<div class="col-sm hwAffected">
+			<textarea name="txtArea_hwInWhatWay" cols="35" placeholder="Enter details here..."></textarea>
+		</div>
+
+	</div>
+	<div class="row">
+		<div id="whatWay" class="col-sm-4 hwAffected">
+			<strong>In what way?</strong> (17)
+		</div>
+		<div class="col-sm hwAffected">
+			<textarea name="txtArea_hwWhoAffected" cols="35" placeholder="Enter details here..."></textarea>
+		</div>
+	</div>
+</div>	
+<hr>
+
+<div class="row">
+	<div class="col-sm-4 crBy">
+		<strong>Change Requested by</strong> (print name) (18)
+	</div>
+	<div class="col-sm crBy">
+		<textarea name="txtArea_hwcrBy" cols="35" placeholder="Enter details here..."></textarea>
+	</div>
+</div>
+
+<hr>
+
+<div class="row">
+	<div class="col-sm-4 changeApprovedBy">
+		<strong>Change Approved by Authorising Manager [Line Manager or System Owner] </strong>(sign & date (if by email, attach)) (19)
+	</div>
+	<div class="col-sm changeApprovedBy">
+		<textarea name="txtArea_changeApprovedBy" cols="35" placeholder="Enter details here..."></textarea>
+	</div>
+</div>
+
+<hr>
+
+<div class="row">
+	<div class="col-sm-4 assignedImp">
+		<strong>Assigned to / Implementer </strong>(20)
+	</div>
+	<div class="col-sm assignedImp">
+		<textarea name="txtArea_assignedImp" cols="35" placeholder="Enter details here..."></textarea>
+	</div>
+</div>
+
+<hr>
+
+<div id="ait" class="row">
+	<div class="col-sm-4 assignedImpTick">
+		<input class="tick_hwassignedImpTick" type="checkbox" name="tpAccessReq" value="tpAccessReq"><strong>3rd Party Access Required?</strong>
+	</div>
+	<div class="col-sm-4 assignedImpTick">
+		<textarea name="txtArea_compEngName" cols="35" placeholder="Company & Engineers Name..."></textarea>
+	</div>
+	<div class="col-sm-4 assignedImpTick">
+		<textarea name="txtArea_duration" cols="20" placeholder="Duration..."></textarea>
+	</div>
+</div>
