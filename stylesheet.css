@@ -77,6 +77,8 @@ body {
 
 #HardwareSection {
 	display: none;
+	opacity: 0;
+	transition: visibility 0s, opacity 0.5s linear 1s;
 }
 
 #subMainHw {
@@ -131,7 +133,6 @@ body {
 }
 
 #SectionC-Header {
-/*	border-top: 1px solid black;*/
 	border-left: 1px solid black;
 	border-right: 1px solid black;
 	border-bottom: 1px solid black;
@@ -218,6 +219,17 @@ body {
 	background-color: lightgray;
 	border-bottom: 1px solid black;
 	font-size: 14px;
+}
+
+#SecFBody {
+	padding-bottom: 1.5em;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+#SecFRow2 {
+	padding-top: 1.5em;
 }
 
 #SectionG-Header {
