@@ -186,7 +186,8 @@ body {
 	border-bottom: 1px solid black;
 }
 
-#SectionE-Header {
+#SectionEHeader {
+	display: none;
 	border-left: 1px solid black;
 	border-right: 1px solid black;
 }
@@ -207,7 +208,8 @@ body {
 	border-bottom: 1px solid black;
 }
 
-#SectionF-Header {
+#SectionFHeader {
+	display: none;
 	border-left: 1px solid black;
 	border-right: 1px solid black;
 	text-align: center;
@@ -268,4 +270,9 @@ body {
 
 textarea {
 	width: 100%;
+}
+
+#footerRow1Col2,
+#footerRow2Col2 {
+	text-align: right;
 }

@@ -28,20 +28,26 @@ function includeHTML() {
 
 function DisplaySoftwareSection() {
     var checkBox = document.getElementById("tick_software");
-    var text = document.getElementById("softwareSection");
+    var softwareSection = document.getElementById("softwareSection");
+    var SectionEHeader = document.getElementById("SectionEHeader");
     if (checkBox.checked == true){
-        text.style.display = "block";
+        softwareSection.style.display = "block";
+        SectionEHeader.style.display = "block";
     } else {
-       text.style.display = "none";
+       softwareSection.style.display = "none";
+       SectionEHeader.style.display = "none";
     }
 }
 
 function DisplayHardwareSection() {
     var checkBox = document.getElementById("tick_hardware");
-    var text = document.getElementById("HardwareSection");
+    var HardwareSection = document.getElementById("HardwareSection");
+    var SectionFHeader = document.getElementById("SectionFHeader")
     if (checkBox.checked == true){
-        text.style.display = "block";
+        HardwareSection.style.display = "block";
+        SectionFHeader.style.display = "block";
     } else {
-       text.style.display = "none";
+       HardwareSection.style.display = "none";
+       SectionFHeader.style.display = "none";
     }
 }
