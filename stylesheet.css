@@ -20,7 +20,7 @@ body {
 #SecARow1Col1 {
 	border-bottom: 1px solid black;
 	text-align: center;
-	background-color: lightgray;
+	background-color: #CAE2CA;
 	font-size: 16px;
 }
 
@@ -49,7 +49,7 @@ body {
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 	text-align: center;
-	background-color: lightgray;
+	background-color: #CAE2CA;
 }
 
 #softCat {
@@ -83,7 +83,7 @@ body {
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 	text-align: center;
-	background-color: lightgray;
+	background-color: #CAE2CA;
 }
 
 #hwCat {
@@ -116,7 +116,7 @@ body {
 }
 
 #SectionB-Header_Title {
-	background-color: lightgray;
+	background-color: #CAE2CA;
 	border-bottom: 1px solid black;
 	font-size: 14px;
 	text-align: center;
@@ -137,7 +137,7 @@ body {
 }
 
 #SectionC-Header_Title {
-	background-color: lightgray;
+	background-color: #CAE2CA;
 	border-bottom: 1px solid black;
 	font-size: 14px;
 	text-align: center;
@@ -171,7 +171,7 @@ body {
 }
 
 #SectionD-Header_Title {
-	background-color: lightgray;
+	background-color: #CAE2CA;
 	border-bottom: 1px solid black;
 	font-size: 14px;
 	text-align: center;
@@ -193,7 +193,7 @@ body {
 }
 
 #SectionE-Header_Title {
-	background-color: lightgray;
+	background-color: #CAE2CA;
 	border-bottom: 1px solid black;
 	font-size: 14px;
 	text-align: center;
@@ -216,7 +216,7 @@ body {
 }
 
 #SectionF-Header_Title {
-	background-color: lightgray;
+	background-color: #CAE2CA;
 	border-bottom: 1px solid black;
 	font-size: 14px;
 }
@@ -238,7 +238,7 @@ body {
 }
 
 #SectionG-Header_Title {
-	background-color: lightgray;
+	background-color: #CAE2CA;
 	border-bottom: 1px solid black;
 	font-size: 14px;
 	text-align: center;
